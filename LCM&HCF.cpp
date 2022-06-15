@@ -20,3 +20,17 @@ int main()
         cout<<"\n LCM : "<<lcm<<"\n";
         return 0;
 }
+//--------HINT----to------solve----------------using recursion funct below
+int gcd(int x , int y){
+        int r;
+        r=x%y;
+        if(r==0){
+                return (y);
+        else{
+                gcd(y,r);
+
+cin>>a>>b;
+                if(a>b){
+                        res=gcd(a,b)
+                else{
+                        res=gcd(b,a)
