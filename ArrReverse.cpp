@@ -16,7 +16,9 @@ int main()
         cout<< array[i]<<" ";
     }   
     --------------------------------------------------------------------OR-------------------------------------------------------------------------
-
+// using funct just bcz if we have more arrays in que so wouldn;t write above code again & again
+        
+        
 void reverse(int arr[],int n){     //arr[] -- isme pointer arr means 1st element of array ka index aega
     int start = 0;   // isme 0th index ko store kraya 
     int end =n-1;
