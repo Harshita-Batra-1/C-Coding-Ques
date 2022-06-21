@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void reverse(int arr[],int n){
+void reverse(int arr[],int n){     //arr[] ek pointer hai jisme arr means 1st element of array ka address aega
     int start = 0;   // isme 0th index ki value ko store kraya but ye ek pointer hai jo index ko point krta so ++ krne se index aage bdega ussi value ka
     int end =n-1;
     while(start<=end){
