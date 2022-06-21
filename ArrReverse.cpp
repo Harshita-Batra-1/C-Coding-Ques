@@ -2,6 +2,21 @@
 
 using namespace std;
 
+int main()
+{
+    int array[5]={4,2,5,-9,7};
+    int n=5;
+    int start = 0;   
+    int end =n-1;
+    while(start<=end){
+        swap(array[start],array[end]);
+        start++;
+        end--; }
+    for(int i=0; i<n; i++){
+        cout<< array[i]<<" ";
+    }   
+    --------------------------------------------------------------------OR-------------------------------------------------------------------------
+
 void reverse(int arr[],int n){     //arr[] -- isme pointer arr means 1st element of array ka index aega
     int start = 0;   // isme 0th index ko store kraya 
     int end =n-1;
