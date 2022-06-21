@@ -2,10 +2,11 @@
 
 using namespace std;
 
-void reverse(int arr[],int n){     //arr[] -- isme arr means 1st element of array ka index aega
-    int start = 0;   // isme 0th index ki value ko store kraya but ye ek pointer hai jo index ko point krta so ++ krne se index aage bdega ussi value ka
+void reverse(int arr[],int n){     //arr[] -- isme pointer arr means 1st element of array ka index aega
+    int start = 0;   // isme 0th index ko store kraya 
     int end =n-1;
     while(start<=end){
+        swap(arr[start],arr[end]);
         start++;
         end--;
     }
@@ -21,8 +22,8 @@ int main()
     int arr[6]={2,3,1,42,-2,0};
     int array[5]={4,2,5,-9,7};
     
-    reverse(arr,6);    //can't write cout before it bcz callinf a void function
-    reverse(array,5);
+    reverse(arr,6);    //can't write cout before it bcz calling a void function
+    reverse(array,5);  // array k 0 ko point krta hua ek pointer pass kra re h
     
     printArray(arr,6);
     cout<<endl;
