@@ -3,7 +3,7 @@
 using namespace std;
 
 void reverse(int arr[],int n){
-    int start = 0;
+    int start = 0;   // isme 0th index ki value ko store kraya but ye ek pointer hai jo index ko point krta so ++ krne se index aage bdega ussi value ka
     int end =n-1;
     while(start<=end){
         start++;
